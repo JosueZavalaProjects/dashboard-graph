@@ -18,7 +18,7 @@ export const NavBar = ({ children }: Props) => {
             </ul>
           </nav>
         </div>
-        <div className="p-4 w-4/5">{children}</div>
+        <div className="p-6 w-4/5">{children}</div>
       </main>
     </section>
   );
