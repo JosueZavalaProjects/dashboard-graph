@@ -8,7 +8,7 @@ export const Dashboard = () => {
     <>
       <div className="flex flex-col gap-6">
         <Header />
-        <div className="flex flex-col gap-6 overflow-y-scroll max-h-[42rem] pb-4">
+        <div className="flex flex-col gap-6 overflow-y-scroll max-h-[50rem] pb-4">
           <Cards />
           <Charts />
           <Table />
