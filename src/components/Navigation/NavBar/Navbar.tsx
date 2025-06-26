@@ -8,7 +8,7 @@ interface Props {
 export const NavBar = ({ children }: Props) => {
   return (
     <section className="flex items-center justify-center p-8 bg-slate-200 w-screen h-screen mx-auto relative">
-      <main className="flex h-full lg:w-[70rem] rounded-xl bg-white">
+      <main className="flex h-full lg:w-[70rem] rounded-xl bg-white overflow-hidden">
         <div className="flex-col gap-4 rounded-l-xl bg-slate-100 p-6 border-r border-r-slate-300 hidden lg:w-1/5 lg:flex">
           <span>
             <Bars3Icon className="size-10 text-gray-700" />
