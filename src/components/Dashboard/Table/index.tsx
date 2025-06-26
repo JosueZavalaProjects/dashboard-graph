@@ -2,7 +2,7 @@ export const Table = () => {
   //<div className="border rounded-lg overflow-hidden">
 
   return (
-    <div className="w-full border border-gray-300 rounded-lg">
+    <div className="md:w-full border border-gray-300 rounded-lg">
       <table className="w-full ">
         <thead className="">
           <tr className="text-left border-b border-gray-300">
