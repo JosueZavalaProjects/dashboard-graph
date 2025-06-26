@@ -46,7 +46,7 @@ const options: ChartOptions<"doughnut"> = {
 // style={{ width: "300px", height: "300px" }}
 export const DoughnutChart = () => {
   return (
-    <div className="max-h-[300px] max-w-[250px]">
+    <div className="w-full">
       <Doughnut data={data} options={options} />
     </div>
   );

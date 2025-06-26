@@ -68,5 +68,9 @@ export const LineChart = ({ labels, dataSet }: ChartProps) => {
       },
     },
   };
-  return <Line ref={chartRef} options={options} data={data} />;
+  return (
+    <div className="w-full">
+      <Line ref={chartRef} options={options} data={data} />
+    </div>
+  );
 };
